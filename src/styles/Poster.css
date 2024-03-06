@@ -1,0 +1,82 @@
+.poster {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.poster.background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster .background .image-background {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  object-position: center;
+}
+
+.poster .filme {
+  z-index: 2;
+  display: flex;
+  color: #fefefe;
+  padding-top: 5rem;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.poster .filme h2 {
+  z-index: 0;
+  color: #B1EE81;
+  font: normal 500 25vw /1.5 'Exo 2', Arial, sans-serif;
+}
+
+.poster .filme .information {
+  z-index: 2;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 24rem;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+}
+
+
+.poster .filme .information img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.poster .filme .information span {
+  color: #1F1C21;
+  margin-top: -12%;
+  align-self: flex-end;
+  padding: 0.5rem 0.75rem;
+  background-color: #FFAC33;
+  font: normal 600 2rem /1.5 'Exo 2', Arial, sans-serif;
+}
+
+.poster .filme .information h1 {
+  width: 100%;
+  height: 100%;
+  color: #1F1C21;
+  max-width: 30rem;
+  align-self: flex-start;
+  font: normal 600 1rem /1.5 'Exo 2', Arial, sans-serif;
+}
