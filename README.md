@@ -12,6 +12,6 @@ A interface do Filogy é simples e poderosa, com ela é possível achar os seus 
 
 ## Forma de execução
 
-Antes de executar o projeto é necessário executar o comando: `npm install`, para que possamos deter todas as dependências da aplicação.
+Para executar a aplicação basta acessar o diretório do projeto: `cd filogy`. Após isso, devemos executar o comando: `npm install`, para que possamos instalar todas as dependências da aplicação.
 
-Para executar a aplicação basta acessar o diretório do projeto: `cd filogy`, e depois executa o comando: `npm start`. E com isso, a aplicação será executada no modo de desenvolvimento. Após a execução do comando basta abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+Em seguida, para executar a aplicação utilizaremos o comando: `npm start`. E com isso, a aplicação será executada no modo de desenvolvimento. Após a execução do comando basta abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
