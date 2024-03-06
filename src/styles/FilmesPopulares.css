@@ -1,0 +1,35 @@
+.filmes-populares {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100vw;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filmes-populares .populares {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-color: #25272D;
+}
+
+.populares {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 44rem;
+  max-height: 48rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.k-scrollview-view {
+  height: 100%;
+}
+
+.k-grid-pager {
+  width: 100%;
+}
