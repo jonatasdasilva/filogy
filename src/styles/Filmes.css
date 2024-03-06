@@ -1,0 +1,37 @@
+.catalog {
+  border: 0;
+  background-color: #1F1C21;
+}
+
+.catalog .k-grid-aria-root {
+  border: 0;
+}
+
+.catalog div {
+  color: #fefefe;
+  background-color: #29252c;
+}
+
+.catalog div tbody tr td {
+  color: #fefefe;
+  background-color: #29252c;
+  font-weight: 400;
+}
+
+.catalog .k-grid-header .k-grid-header-wrap {
+  background-color: #1F1C21;
+}
+
+.catalog .k-grid-header .k-grid-header-wrap table {
+  background-color: #1F1C21;
+}
+
+.catalog .k-grid-header .k-grid-header-wrap table thead {
+  background-color: #1F1C21;
+}
+
+.catalog .k-grid-header .k-grid-header-wrap table thead tr th {
+  color: #B1EE81;
+  font-weight: 600;
+  background-color: #1F1C21;
+}
